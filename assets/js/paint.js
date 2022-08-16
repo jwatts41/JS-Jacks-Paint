@@ -19,7 +19,7 @@ function addOpacity(event) {
 
 function removeOpacity(event) {
     if(this.classlist.contains('dim')){
-        this.classList.removve('dim');
+        this.classList.remove('dim');
     }
      //remove appropriate CSS class
 
